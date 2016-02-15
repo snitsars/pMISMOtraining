@@ -1,0 +1,4 @@
+insert into MITUserType ([Id], [Name], [EnumeratedName], [Description]) values (1, 'Broker', 'Broker', null)
+insert into MITUserType ([Id], [Name], [EnumeratedName], [Description]) values (2, 'Seller', 'Seller', null)
+insert into MITUserType ([Id], [Name], [EnumeratedName], [Description]) values (3, 'Lock Desk', 'LockDesk', null)
+insert into MITUserType ([Id], [Name], [EnumeratedName], [Description]) values (4, 'Underwriting', 'Underwriting', null)

@@ -1,0 +1,2610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE416AA2-2DEB-4D28-9EDD-3187102242FD}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>MISMO</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MISMO</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DocumentationFile>bin\Debug\MISMO.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DocumentationFile>MISMO.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OrcaLogic\OrcaLogic.csproj">
+      <Name>OrcaLogic</Name>
+      <Project>{422472DF-82D5-4F82-ACA1-FD9478F02D08}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AdditionalCaseData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AdditionalCaseDataCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AffordableLending.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AffordableLendingCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Alias.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Aliases.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ApplicationMethod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ApplicationMethods.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Appraiser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Appraisers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ARM.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ARMCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Asset.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Assets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AssetType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AssetTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\AdditionalCaseData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\Asset.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\Assets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\Borrower.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\Borrowers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\CreditScore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\CreditScores.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\DataInformation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\Declaration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\GovernmentMonitoring.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\Liabilities.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\Liability.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\LoanApplication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\LoanProductData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\LoanPurpose.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\Property.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\TransactionDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\AUS\Valuation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\BaseDataType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\BaseDataTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Borrower.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\BorrowerResidencyBasisType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\BorrowerResidencyBasisTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\BorrowerResidencyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\BorrowerResidencyTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Borrowers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\BuildingStatusType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\BuildingStatusTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Buydown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\BuydownCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CaseStateType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CaseStateTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CitizenshipResidencyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CitizenshipResidencyTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ConstructionPurposeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ConstructionPurposeTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ConstructionRefinanceData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ConstructionRefinanceDataCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ContactPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ContactPointCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ContactPointRoleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ContactPointRoleTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ContactPointType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ContactPointTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ContributorType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ContributorTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CreditRepositorySourceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CreditRepositorySourceTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CreditScore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CreditScoreExclusionReasonType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CreditScoreExclusionReasonTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CreditScoreModelNameType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CreditScoreModelNameTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CreditScores.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CurrentIncome.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\CurrentIncomeCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\DataInformation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\DataInformationCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\DataVersion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\DataVersions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Declaration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Declarations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Dependent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Dependents.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\DispositionStatusType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\DispositionStatusTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\DownPayment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\DownPayments.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\DownPaymentType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\DownPaymentTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Employer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Employers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Explanation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Explanations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ExplanationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ExplanationTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FHAAlimonyLiabilityTreatmentType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FHAAlimonyLiabilityTreatmentTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FHALoan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FHALoans.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FHAVABorrower.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FHAVABorrowers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FHAVALoan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FHAVALoans.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FNMCommunityLendingProductType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FNMCommunityLendingProductTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FNMCreditReportScoreType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FNMCreditReportScoreTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FullPrepaymentPenaltyOptionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\FullPrepaymentPenaltyOptionTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GenderType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GenderTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GovernmentLoan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GovernmentLoans.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GovernmentMonitoring.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GovernmentMonitoringCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GovernmentRefinanceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GovernmentRefinanceTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GovernmentReporting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GovernmentReportingCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GSEProjectClassificationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GSEProjectClassificationTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GSEPropertyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GSEPropertyTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GSERefinancePurposeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\GSERefinancePurposeTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\HMDAEthnicityType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\HMDAEthnicityTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\HMDAPreapprovalType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\HMDAPreapprovalTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\HMDAPurposeOfLoanType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\HMDAPurposeOfLoanTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\HMDARace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\HMDARaces.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\HMDARaceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\HMDARaceTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\HousingExpenseType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\HousingExpenseTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\IncomeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\IncomeTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\InterestRateIndex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\InterestRateIndexs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\InterviewerInformation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\InterviewerInformationCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\JointAssetLiabilityReportingType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\JointAssetLiabilityReportingTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LandTrustType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LandTrustTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LegalDescription.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LegalDescriptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LegalType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LegalTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Liabilities.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Liability.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LiabilityType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LiabilityTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LienPriorityType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LienPriorityTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanAmortizationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanAmortizationTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanApplication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanApplications.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanClosingStatusType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanClosingStatusTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanDocumentationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanDocumentationTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanFeatures.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanFeaturesCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanProductData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanProductDataCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanPurpose.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanPurposes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanQualification.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanQualifications.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanRepaymentType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\LoanRepaymentTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MailTo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MailToCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MaritalStatusType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MaritalStatusTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MICertificationStatusType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MICertificationStatusTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MICompanyNameType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MICompanyNameTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MortgageHolderType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MortgageHolderTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MortgageScore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MortgageScores.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MortgageScoreType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MortgageScoreTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MortgageTerms.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MortgageTermsCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MortgageType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\MortgageTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\NameDocumentsDrawnInType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\NameDocumentsDrawnInTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\NationalHousingActSectionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\NationalHousingActSectionTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ParsedStreetAddress.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ParsedStreetAddresses.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PaymentAdjustment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PaymentAdjustments.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PaymentFrequencyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PaymentFrequencyTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PresentHousingExpense.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PresentHousingExpenses.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PrintPositionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PrintPositionTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PriorPropertyTitleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PriorPropertyTitleTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PriorPropertyUsageType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PriorPropertyUsageTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Properties.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Property.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PropertyRightsType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PropertyRightsTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PropertyUsageType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PropertyUsageTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PropertyValuationMethodType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PropertyValuationMethodTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ProposedHousingExpense.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ProposedHousingExpenses.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PurchaseCredit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PurchaseCreditCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PurchaseCreditSourceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PurchaseCreditSourceTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PurchaseCreditType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PurchaseCreditTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PurposeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\PurposeTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\RaceNationalOriginType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\RaceNationalOriginTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\RateAdjustment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\RateAdjustments.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\RateLockType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\RateLockTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\RefinanceImprovementsType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\RefinanceImprovementsTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\REOProperties.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\REOProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Residence.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Residences.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ServicingTransferStatusType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\ServicingTransferStatusTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Summaries.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Summary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\SummaryAmountType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\SummaryAmountTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\TitleHolder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\TitleHolders.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\TransactionDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\TransactionDetails.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\TransmittalData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\TransmittalDataCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\VABorrower.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\VABorrowers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\VALoan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\VALoans.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Valuation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObjects\Valuations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\AdditionalCaseDataService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\AdditionalCaseDataServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\AffordableLendingService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\AffordableLendingServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\AliasService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\AliasServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ApplicationMethodService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ApplicationMethodServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\AppraiserService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\AppraiserServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ARMService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ARMServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\AssetService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\AssetServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\AssetTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\AssetTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\BaseDataTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\BaseDataTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\BorrowerResidencyBasisTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\BorrowerResidencyBasisTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\BorrowerResidencyTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\BorrowerResidencyTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\BorrowerService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\BorrowerServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\BuildingStatusTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\BuildingStatusTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\BuydownService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\BuydownServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CaseStateTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CaseStateTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CitizenshipResidencyTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CitizenshipResidencyTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\Connection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ConstructionPurposeTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ConstructionPurposeTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ConstructionRefinanceDataService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ConstructionRefinanceDataServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ContactPointRoleTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ContactPointRoleTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ContactPointService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ContactPointServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ContactPointTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ContactPointTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ContributorTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ContributorTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CreditRepositorySourceTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CreditRepositorySourceTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CreditScoreExclusionReasonTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CreditScoreExclusionReasonTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CreditScoreModelNameTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CreditScoreModelNameTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CreditScoreService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CreditScoreServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CurrentIncomeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CurrentIncomeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DataInformationService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DataInformationServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DataVersionService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DataVersionServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DeclarationService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DeclarationServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DependentService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DependentServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DispositionStatusTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DispositionStatusTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DownPaymentService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DownPaymentServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DownPaymentTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DownPaymentTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\EmployerService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\EmployerServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ExplanationService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ExplanationServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ExplanationTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ExplanationTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FHAAlimonyLiabilityTreatmentTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FHAAlimonyLiabilityTreatmentTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FHALoanService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FHALoanServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FHAVABorrowerService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FHAVABorrowerServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FHAVALoanService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FHAVALoanServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FNMCommunityLendingProductTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FNMCommunityLendingProductTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FNMCreditReportScoreTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FNMCreditReportScoreTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FullPrepaymentPenaltyOptionTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\FullPrepaymentPenaltyOptionTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GenderTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GenderTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GovernmentLoanService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GovernmentLoanServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GovernmentMonitoringService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GovernmentMonitoringServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GovernmentRefinanceTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GovernmentRefinanceTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GovernmentReportingService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GovernmentReportingServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GSEProjectClassificationTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GSEProjectClassificationTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GSEPropertyTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GSEPropertyTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GSERefinancePurposeTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GSERefinancePurposeTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\HMDAEthnicityTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\HMDAEthnicityTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\HMDAPreapprovalTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\HMDAPreapprovalTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\HMDAPurposeOfLoanTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\HMDAPurposeOfLoanTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\HMDARaceService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\HMDARaceServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\HMDARaceTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\HMDARaceTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\HousingExpenseTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\HousingExpenseTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\IncomeTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\IncomeTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\InterestRateIndexService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\InterestRateIndexServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\InterviewerInformationService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\InterviewerInformationServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\JointAssetLiabilityReportingTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\JointAssetLiabilityReportingTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LandTrustTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LandTrustTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LegalDescriptionService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LegalDescriptionServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LegalTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LegalTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LiabilityService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LiabilityServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LiabilityTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LiabilityTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LienPriorityTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LienPriorityTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanAmortizationTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanAmortizationTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanApplicationService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanApplicationServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanClosingStatusTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanClosingStatusTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanDocumentationTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanDocumentationTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanFeaturesService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanFeaturesServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanProductDataService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanProductDataServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanPurposeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanPurposeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanQualificationService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanQualificationServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanRepaymentTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\LoanRepaymentTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MailToService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MailToServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MaritalStatusTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MaritalStatusTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MICertificationStatusTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MICertificationStatusTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MICompanyNameTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MICompanyNameTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MortgageHolderTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MortgageHolderTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MortgageScoreService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MortgageScoreServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MortgageScoreTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MortgageScoreTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MortgageTermsService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MortgageTermsServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MortgageTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\MortgageTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\NameDocumentsDrawnInTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\NameDocumentsDrawnInTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\NationalHousingActSectionTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\NationalHousingActSectionTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ParsedStreetAddressService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ParsedStreetAddressServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PaymentAdjustmentService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PaymentAdjustmentServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PaymentFrequencyTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PaymentFrequencyTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PresentHousingExpenseService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PresentHousingExpenseServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PrintPositionTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PrintPositionTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PriorPropertyTitleTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PriorPropertyTitleTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PriorPropertyUsageTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PriorPropertyUsageTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PropertyRightsTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PropertyRightsTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PropertyService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PropertyServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PropertyUsageTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PropertyUsageTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PropertyValuationMethodTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PropertyValuationMethodTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ProposedHousingExpenseService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ProposedHousingExpenseServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PurchaseCreditService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PurchaseCreditServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PurchaseCreditSourceTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PurchaseCreditSourceTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PurchaseCreditTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PurchaseCreditTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PurposeTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\PurposeTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\RaceNationalOriginTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\RaceNationalOriginTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\RateAdjustmentService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\RateAdjustmentServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\RateLockTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\RateLockTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\RefinanceImprovementsTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\RefinanceImprovementsTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\REOPropertyService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\REOPropertyServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ResidenceService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ResidenceServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ServicingTransferStatusTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ServicingTransferStatusTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\SummaryAmountTypeService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\SummaryAmountTypeServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\SummaryService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\SummaryServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\TitleHolderService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\TitleHolderServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\TransactionDetailService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\TransactionDetailServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\TransmittalDataService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\TransmittalDataServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\VABorrowerService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\VABorrowerServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\VALoanService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\VALoanServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ValuationService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ValuationServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DUHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\Constants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\ContextToken.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\DirectServiceObjectFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\EnterpriseApplication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\EnterpriseCounter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\EnterpriseCounterCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\EnterpriseCounters.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\Entities.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\Entity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\Exceptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\HistoricalEntity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\IConcurrentEntity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\ICounterProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\RemotingAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\RemotingServiceObjectFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\Service.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\ServiceObjectFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\SQLHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseCode\Token.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\AdditionalCaseDataBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\AdditionalCaseDataCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\AffordableLendingBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\AffordableLendingCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\AliasBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\AliasesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ApplicationMethodBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ApplicationMethodsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\AppraiserBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\AppraisersBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ARMBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ARMCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\AssetBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\AssetsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\AssetTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\AssetTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\BaseDataTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\BaseDataTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\BorrowerBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\BorrowerResidencyBasisTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\BorrowerResidencyBasisTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\BorrowerResidencyTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\BorrowerResidencyTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\BorrowersBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\BuildingStatusTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\BuildingStatusTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\BuydownBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\BuydownCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CaseStateTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CaseStateTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CitizenshipResidencyTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CitizenshipResidencyTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ConstructionPurposeTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ConstructionPurposeTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ConstructionRefinanceDataBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ConstructionRefinanceDataCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ContactPointBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ContactPointCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ContactPointRoleTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ContactPointRoleTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ContactPointTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ContactPointTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ContributorTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ContributorTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CreditRepositorySourceTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CreditRepositorySourceTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CreditScoreBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CreditScoreExclusionReasonTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CreditScoreExclusionReasonTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CreditScoreModelNameTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CreditScoreModelNameTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CreditScoresBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CurrentIncomeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\CurrentIncomeCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DataInformationBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DataInformationCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DataVersionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DataVersionsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DeclarationBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DeclarationsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DependentBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DependentsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DispositionStatusTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DispositionStatusTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DownPaymentBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DownPaymentsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DownPaymentTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\DownPaymentTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\EmployerBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\EmployersBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ExplanationBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ExplanationsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ExplanationTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ExplanationTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FHAAlimonyLiabilityTreatmentTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FHAAlimonyLiabilityTreatmentTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FHALoanBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FHALoansBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FHAVABorrowerBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FHAVABorrowersBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FHAVALoanBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FHAVALoansBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FNMCommunityLendingProductTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FNMCommunityLendingProductTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FNMCreditReportScoreTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FNMCreditReportScoreTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FullPrepaymentPenaltyOptionTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\FullPrepaymentPenaltyOptionTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GenderTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GenderTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GovernmentLoanBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GovernmentLoansBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GovernmentMonitoringBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GovernmentMonitoringCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GovernmentRefinanceTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GovernmentRefinanceTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GovernmentReportingBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GovernmentReportingCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GSEProjectClassificationTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GSEProjectClassificationTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GSEPropertyTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GSEPropertyTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GSERefinancePurposeTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\GSERefinancePurposeTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\HMDAEthnicityTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\HMDAEthnicityTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\HMDAPreapprovalTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\HMDAPreapprovalTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\HMDAPurposeOfLoanTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\HMDAPurposeOfLoanTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\HMDARaceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\HMDARacesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\HMDARaceTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\HMDARaceTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\HousingExpenseTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\HousingExpenseTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\IncomeTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\IncomeTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\InterestRateIndexBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\InterestRateIndexsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\InterviewerInformationBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\InterviewerInformationCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\JointAssetLiabilityReportingTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\JointAssetLiabilityReportingTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LandTrustTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LandTrustTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LegalDescriptionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LegalDescriptionsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LegalTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LegalTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LiabilitiesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LiabilityBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LiabilityTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LiabilityTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LienPriorityTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LienPriorityTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanAmortizationTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanAmortizationTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanApplicationBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanApplicationsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanClosingStatusTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanClosingStatusTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanDocumentationTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanDocumentationTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanFeaturesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanFeaturesCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanProductDataBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanProductDataCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanPurposeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanPurposesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanQualificationBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanQualificationsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanRepaymentTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\LoanRepaymentTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MailToBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MailToCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MaritalStatusTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MaritalStatusTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MICertificationStatusTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MICertificationStatusTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MICompanyNameTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MICompanyNameTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MortgageHolderTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MortgageHolderTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MortgageScoreBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MortgageScoresBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MortgageScoreTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MortgageScoreTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MortgageTermsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MortgageTermsCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MortgageTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\MortgageTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\NameDocumentsDrawnInTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\NameDocumentsDrawnInTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\NationalHousingActSectionTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\NationalHousingActSectionTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ParsedStreetAddressBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ParsedStreetAddressesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PaymentAdjustmentBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PaymentAdjustmentsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PaymentFrequencyTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PaymentFrequencyTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PresentHousingExpenseBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PresentHousingExpensesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PrintPositionTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PrintPositionTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PriorPropertyTitleTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PriorPropertyTitleTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PriorPropertyUsageTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PriorPropertyUsageTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PropertiesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PropertyBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PropertyRightsTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PropertyRightsTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PropertyUsageTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PropertyUsageTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PropertyValuationMethodTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PropertyValuationMethodTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ProposedHousingExpenseBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ProposedHousingExpensesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PurchaseCreditBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PurchaseCreditCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PurchaseCreditSourceTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PurchaseCreditSourceTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PurchaseCreditTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PurchaseCreditTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PurposeTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\PurposeTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\RaceNationalOriginTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\RaceNationalOriginTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\RateAdjustmentBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\RateAdjustmentsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\RateLockTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\RateLockTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\RefinanceImprovementsTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\RefinanceImprovementsTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\REOPropertiesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\REOPropertyBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ResidenceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ResidencesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ServicingTransferStatusTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ServicingTransferStatusTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\SummariesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\SummaryAmountTypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\SummaryAmountTypesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\SummaryBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\TitleHolderBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\TitleHoldersBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\TransactionDetailBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\TransactionDetailsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\TransmittalDataBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\TransmittalDataCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\VABorrowerBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\VABorrowersBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\VALoanBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\VALoansBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ValuationBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\ValuationsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\AmountType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\ApplicationTakenMethodType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\ARMIndexType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\AssetType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\BorrowerResidencyBasisType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\BorrowerResidencyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\BuildingStatusType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\BuydownBaseDataType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\BuydownContributorType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\CaseStateType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\CitizenshipResidencyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\ConstructionPurposeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\ContactPointRoleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\ContactPointType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\CreditEnumerations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\DownPaymentOptionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\DownPaymentType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\ExplanationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\ExternalFileType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\ExternalSystemType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\FHAAlimonyLiabilityTreatmentType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\FHALoanSectionOfActType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\FHAVALoanGovernmentRefinanceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\FNMCommunityLendingProductType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\FNMCreditReportScoreType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\FullPrepaymentPenaltyOptionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\GenderType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\GSEProjectClassificationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\GSEPropertyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\GSERefinancePurposeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\HMDAEthnicityType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\HMDAPreapprovalType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\HMDAPurposeOfLoanType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\HMDARaceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\HomeownerPastThreeYearsType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\HousingExpenseType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\IncomeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\IntentToOccupyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\JointAssetLiabilityReportingType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\LegalDescriptionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\LiabilityType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\LienPriorityType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\LoanAmortizationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\LoanClosingStatusType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\LoanDocumentationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\LoanPurposeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\LoanRepaymentType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\MaritalStatusType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\MICertificationStatusType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\MICompanyNameType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\MITAdjustmentType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\MITPricingActorType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\MITUserType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\MortgageHolderType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\MortgageScoreType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\MortgageType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\NameDocumentsDrawnInType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\PaymentAdjustmentCalculationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\PaymentFrequencyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\PresentHousingExpenseType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\PrintPositionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\PriorPropertyTitleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\PriorPropertyUsageType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\PropertyRightsType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\PropertyUsageType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\PurchaseCreditSourceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\RaceNationalOriginType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\RateAdjustmentCalculationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\RateLockType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\RefinanceImprovementsType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\REOPropertyDispositionStatusType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\REOPropertyGSEPropertyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\ServicingTransferStatusType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums\ValuationMethodType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XmlHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>
